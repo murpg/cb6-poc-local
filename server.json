@@ -1,0 +1,19 @@
+{
+    "name":"multiverse",
+    "app":{
+        "cfengine":"adobe@2023.0.4+330500"
+    },
+    "web":{
+        "bindings":{
+            "http":{
+                "listen":"127.0.0.1:8080"
+            }
+        },
+        "directoryBrowsing":false,
+        "rewrites":{
+            "enable":true
+        }
+    },
+    "siteConfigFiles":"**.site.json",
+    "console":true
+}

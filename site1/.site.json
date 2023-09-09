@@ -1,0 +1,13 @@
+ {
+     "profile": "development",
+     "webroot":"D:/projects/cb6-poc-local/site1",
+     "web":{
+        "bindings":{
+            "http":{
+                "listen":"127.0.0.1:8086"
+            }
+        },
+         "rewrites":{"enable":true}
+         }
+     
+ }
